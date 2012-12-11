@@ -12,6 +12,6 @@ SharpDevelop因為XML裡面會包含很多其他的資料，所以放上來的�
         <SerializedValue name="CustomizedHighlightingRules">
             ...........
         </SerializedValue>
-2. 開啟SharpDevelop執行目錄下的SharpDevelopProperties.xml，找到上述XML的區劃，置換為步驟1所複製起來的內容。
+2. 開啟SharpDevelop執行目錄下的SharpDevelopProperties.xml，找到上述XML的區塊，置換為步驟1所複製起來的內容。
 
 Visual Studio 2008/2010的設定檔，只有匯出「環境/字型及色彩」設定項目，所以可以直接匯入。
