@@ -1,4 +1,4 @@
-DarkStyle
+DarkStyle - IDE編輯器的黑色風格
 =========
 
 Dark theme of SharpDevelop 4.x and Visual Studio 2008/2010
