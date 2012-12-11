@@ -1,0 +1,796 @@
+﻿<SharpDevelopProperties>
+  <BuildOnExecute value="RegularBuild" />
+  <CodeAnalysis.FxCopPath value="C:\Program Files (x86)\Microsoft FxCop 1.36" />
+  <Properties name="CodeCompletionOptions">
+    <CompleteWhenTyping value="True" />
+    <DataUsageCacheEnabled value="True" />
+    <DataUsageCacheItemCount value="500" />
+    <EnableCC value="True" />
+    <InsightEnabled value="True" />
+    <InsightRefreshOnComma value="True" />
+    <KeywordCompletionEnabled value="True" />
+    <TooltipsEnabled value="True" />
+    <TooltipsOnlyWhenDebugging value="False" />
+  </Properties>
+  <Properties name="CodeCoverage.Options">
+    <CodeCoverageHighlighted value="False" />
+    <NotVisitedColor value="Red" />
+    <NotVisitedForeColor value="White" />
+    <VisitedColor value="Lime" />
+    <VisitedForeColor value="Black" />
+  </Properties>
+  <SerializedValue name="CodeEditorOptions">
+    <CodeEditorOptions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <ConvertTabsToSpaces>true</ConvertTabsToSpaces>
+      <AllowScrollBelowDocument>true</AllowScrollBelowDocument>
+      <FontFamily>Consolas</FontFamily>
+      <FontSize>14</FontSize>
+    </CodeEditorOptions>
+  </SerializedValue>
+  <SerializedValue name="CodeSnippets">
+    <ArrayOfCodeSnippetGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <CodeSnippetGroup>
+        <Snippets />
+        <Extensions>.cs</Extensions>
+      </CodeSnippetGroup>
+      <CodeSnippetGroup>
+        <Snippets />
+        <Extensions>.vb</Extensions>
+      </CodeSnippetGroup>
+    </ArrayOfCodeSnippetGroup>
+  </SerializedValue>
+  <CoreProperties.UILanguage value="en" />
+  <SerializedValue name="CustomizedHighlightingRules">
+    <ArrayOfCustomizedHighlightingColor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <CustomizedHighlightingColor>
+        <Language>C#</Language>
+        <Name>String</Name>
+        <Bold>false</Bold>
+        <Italic>false</Italic>
+        <Foreground>
+          <A>255</A>
+          <R>165</R>
+          <G>196</G>
+          <B>92</B>
+          <ScA>1</ScA>
+          <ScR>0.376262128</ScR>
+          <ScG>0.55201143</ScG>
+          <ScB>0.107023105</ScB>
+        </Foreground>
+        <Background xsi:nil="true" />
+      </CustomizedHighlightingColor>
+      <CustomizedHighlightingColor>
+        <Language>C#</Language>
+        <Name>Keywords</Name>
+        <Bold>true</Bold>
+        <Italic>false</Italic>
+        <Foreground>
+          <A>255</A>
+          <R>255</R>
+          <G>174</G>
+          <B>0</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>0.423267663</ScG>
+          <ScB>0</ScB>
+        </Foreground>
+        <Background xsi:nil="true" />
+      </CustomizedHighlightingColor>
+      <CustomizedHighlightingColor>
+        <Name>Default text/background</Name>
+        <Bold>false</Bold>
+        <Italic>false</Italic>
+        <Foreground>
+          <A>255</A>
+          <R>255</R>
+          <G>245</G>
+          <B>216</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>0.913098633</ScG>
+          <ScB>0.6866853</ScB>
+        </Foreground>
+        <Background>
+          <A>255</A>
+          <R>0</R>
+          <G>0</G>
+          <B>0</B>
+          <ScA>1</ScA>
+          <ScR>0</ScR>
+          <ScG>0</ScG>
+          <ScB>0</ScB>
+        </Background>
+      </CustomizedHighlightingColor>
+      <CustomizedHighlightingColor>
+        <Language>VBNET</Language>
+        <Name>Keywords</Name>
+        <Bold>false</Bold>
+        <Italic>false</Italic>
+        <Foreground>
+          <A>255</A>
+          <R>255</R>
+          <G>174</G>
+          <B>0</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>0.423267663</ScG>
+          <ScB>0</ScB>
+        </Foreground>
+        <Background xsi:nil="true" />
+      </CustomizedHighlightingColor>
+      <CustomizedHighlightingColor>
+        <Language>VBNET</Language>
+        <Name>String</Name>
+        <Bold>false</Bold>
+        <Italic>false</Italic>
+        <Foreground>
+          <A>255</A>
+          <R>165</R>
+          <G>196</G>
+          <B>92</B>
+          <ScA>1</ScA>
+          <ScR>0.376262128</ScR>
+          <ScG>0.55201143</ScG>
+          <ScB>0.107023105</ScB>
+        </Foreground>
+        <Background xsi:nil="true" />
+      </CustomizedHighlightingColor>
+      <CustomizedHighlightingColor>
+        <Language>ASP/XHTML</Language>
+        <Name>String</Name>
+        <Bold>false</Bold>
+        <Italic>false</Italic>
+        <Foreground>
+          <A>255</A>
+          <R>0</R>
+          <G>144</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>0</ScR>
+          <ScG>0.278894275</ScG>
+          <ScB>1</ScB>
+        </Foreground>
+        <Background>
+          <A>0</A>
+          <R>0</R>
+          <G>0</G>
+          <B>0</B>
+          <ScA>0</ScA>
+          <ScR>0</ScR>
+          <ScG>0</ScG>
+          <ScB>0</ScB>
+        </Background>
+      </CustomizedHighlightingColor>
+      <CustomizedHighlightingColor>
+        <Language>C#</Language>
+        <Name>GetSetAddRemove</Name>
+        <Bold>false</Bold>
+        <Italic>false</Italic>
+        <Foreground>
+          <A>255</A>
+          <R>181</R>
+          <G>113</G>
+          <B>68</B>
+          <ScA>1</ScA>
+          <ScR>0.462077</ScR>
+          <ScG>0.1651322</ScG>
+          <ScB>0.05780543</ScB>
+        </Foreground>
+        <Background xsi:nil="true" />
+      </CustomizedHighlightingColor>
+      <CustomizedHighlightingColor>
+        <Language>C#</Language>
+        <Name>Visibility</Name>
+        <Bold>true</Bold>
+        <Italic>false</Italic>
+        <Foreground>
+          <A>255</A>
+          <R>0</R>
+          <G>144</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>0</ScR>
+          <ScG>0.278894275</ScG>
+          <ScB>1</ScB>
+        </Foreground>
+        <Background xsi:nil="true" />
+      </CustomizedHighlightingColor>
+      <CustomizedHighlightingColor>
+        <Language>C#</Language>
+        <Name>Modifiers</Name>
+        <Bold>false</Bold>
+        <Italic>false</Italic>
+        <Foreground>
+          <A>255</A>
+          <R>196</R>
+          <G>78</G>
+          <B>78</B>
+          <ScA>1</ScA>
+          <ScR>0.55201143</ScR>
+          <ScG>0.07618538</ScG>
+          <ScB>0.07618538</ScB>
+        </Foreground>
+        <Background xsi:nil="true" />
+      </CustomizedHighlightingColor>
+      <CustomizedHighlightingColor>
+        <Language>C#</Language>
+        <Name>ContextKeywords</Name>
+        <Bold>false</Bold>
+        <Italic>false</Italic>
+        <Foreground>
+          <A>255</A>
+          <R>0</R>
+          <G>144</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>0</ScR>
+          <ScG>0.278894275</ScG>
+          <ScB>1</ScB>
+        </Foreground>
+        <Background xsi:nil="true" />
+      </CustomizedHighlightingColor>
+      <CustomizedHighlightingColor>
+        <Language>C#</Language>
+        <Name>GotoKeywords</Name>
+        <Bold>false</Bold>
+        <Italic>false</Italic>
+        <Foreground>
+          <A>255</A>
+          <R>0</R>
+          <G>144</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>0</ScR>
+          <ScG>0.278894275</ScG>
+          <ScB>1</ScB>
+        </Foreground>
+        <Background xsi:nil="true" />
+      </CustomizedHighlightingColor>
+      <CustomizedHighlightingColor>
+        <Language>C#</Language>
+        <Name>NumberLiteral</Name>
+        <Bold>false</Bold>
+        <Italic>false</Italic>
+        <Foreground>
+          <A>255</A>
+          <R>153</R>
+          <G>153</G>
+          <B>208</B>
+          <ScA>1</ScA>
+          <ScR>0.318546772</ScR>
+          <ScG>0.318546772</ScG>
+          <ScB>0.630757153</ScB>
+        </Foreground>
+        <Background xsi:nil="true" />
+      </CustomizedHighlightingColor>
+      <CustomizedHighlightingColor>
+        <Language>C#</Language>
+        <Name>MethodCall</Name>
+        <Bold>true</Bold>
+        <Italic>false</Italic>
+        <Foreground>
+          <A>255</A>
+          <R>153</R>
+          <G>153</G>
+          <B>208</B>
+          <ScA>1</ScA>
+          <ScR>0.318546772</ScR>
+          <ScG>0.318546772</ScG>
+          <ScB>0.630757153</ScB>
+        </Foreground>
+        <Background xsi:nil="true" />
+      </CustomizedHighlightingColor>
+      <CustomizedHighlightingColor>
+        <Language>C#</Language>
+        <Name>ReferenceTypes</Name>
+        <Bold>false</Bold>
+        <Italic>false</Italic>
+        <Foreground>
+          <A>255</A>
+          <R>255</R>
+          <G>168</G>
+          <B>168</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>0.391572475</ScG>
+          <ScB>0.391572475</ScB>
+        </Foreground>
+        <Background xsi:nil="true" />
+      </CustomizedHighlightingColor>
+      <CustomizedHighlightingColor>
+        <Language>VBNET</Language>
+        <Name>ContextKeywords</Name>
+        <Bold>false</Bold>
+        <Italic>false</Italic>
+        <Foreground>
+          <A>255</A>
+          <R>0</R>
+          <G>144</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>0</ScR>
+          <ScG>0.278894275</ScG>
+          <ScB>1</ScB>
+        </Foreground>
+        <Background xsi:nil="true" />
+      </CustomizedHighlightingColor>
+      <CustomizedHighlightingColor>
+        <Language>VBNET</Language>
+        <Name>FunctionKeywords</Name>
+        <Bold>false</Bold>
+        <Italic>false</Italic>
+        <Foreground>
+          <A>255</A>
+          <R>0</R>
+          <G>144</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>0</ScR>
+          <ScG>0.278894275</ScG>
+          <ScB>1</ScB>
+        </Foreground>
+        <Background xsi:nil="true" />
+      </CustomizedHighlightingColor>
+      <CustomizedHighlightingColor>
+        <Language>VBNET</Language>
+        <Name>Constants</Name>
+        <Bold>false</Bold>
+        <Italic>false</Italic>
+        <Foreground>
+          <A>255</A>
+          <R>0</R>
+          <G>144</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>0</ScR>
+          <ScG>0.278894275</ScG>
+          <ScB>1</ScB>
+        </Foreground>
+        <Background xsi:nil="true" />
+      </CustomizedHighlightingColor>
+      <CustomizedHighlightingColor>
+        <Language>VBNET</Language>
+        <Name>Operators</Name>
+        <Bold>false</Bold>
+        <Italic>false</Italic>
+        <Foreground>
+          <A>255</A>
+          <R>165</R>
+          <G>95</G>
+          <B>232</B>
+          <ScA>1</ScA>
+          <ScR>0.376262128</ScR>
+          <ScG>0.114435375</ScG>
+          <ScB>0.806952238</ScB>
+        </Foreground>
+        <Background xsi:nil="true" />
+      </CustomizedHighlightingColor>
+      <CustomizedHighlightingColor>
+        <Language>VBNET</Language>
+        <Name>DataTypes</Name>
+        <Bold>false</Bold>
+        <Italic>false</Italic>
+        <Foreground>
+          <A>255</A>
+          <R>232</R>
+          <G>120</G>
+          <B>168</B>
+          <ScA>1</ScA>
+          <ScR>0.806952238</ScR>
+          <ScG>0.187820777</ScG>
+          <ScB>0.391572475</ScB>
+        </Foreground>
+        <Background xsi:nil="true" />
+      </CustomizedHighlightingColor>
+      <CustomizedHighlightingColor>
+        <Language>VBNET</Language>
+        <Name>Preprocessor</Name>
+        <Bold>false</Bold>
+        <Italic>false</Italic>
+        <Foreground>
+          <A>255</A>
+          <R>183</R>
+          <G>77</G>
+          <B>77</B>
+          <ScA>1</ScA>
+          <ScR>0.473531485</ScR>
+          <ScG>0.07421357</ScG>
+          <ScB>0.07421357</ScB>
+        </Foreground>
+        <Background xsi:nil="true" />
+      </CustomizedHighlightingColor>
+      <CustomizedHighlightingColor>
+        <Language>VBNET</Language>
+        <Name>DateLiteral</Name>
+        <Bold>false</Bold>
+        <Italic>false</Italic>
+        <Foreground>
+          <A>255</A>
+          <R>0</R>
+          <G>144</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>0</ScR>
+          <ScG>0.278894275</ScG>
+          <ScB>1</ScB>
+        </Foreground>
+        <Background xsi:nil="true" />
+      </CustomizedHighlightingColor>
+      <CustomizedHighlightingColor>
+        <Language>XML</Language>
+        <Name>AttributeValue</Name>
+        <Bold>false</Bold>
+        <Italic>false</Italic>
+        <Foreground>
+          <A>255</A>
+          <R>0</R>
+          <G>144</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>0</ScR>
+          <ScG>0.278894275</ScG>
+          <ScB>1</ScB>
+        </Foreground>
+        <Background xsi:nil="true" />
+      </CustomizedHighlightingColor>
+      <CustomizedHighlightingColor>
+        <Language>XML</Language>
+        <Name>XmlTag</Name>
+        <Bold>false</Bold>
+        <Italic>false</Italic>
+        <Foreground>
+          <A>255</A>
+          <R>183</R>
+          <G>0</G>
+          <B>183</B>
+          <ScA>1</ScA>
+          <ScR>0.473531485</ScR>
+          <ScG>0</ScG>
+          <ScB>0.473531485</ScB>
+        </Foreground>
+        <Background xsi:nil="true" />
+      </CustomizedHighlightingColor>
+      <CustomizedHighlightingColor>
+        <Language>XML</Language>
+        <Name>XmlDeclaration</Name>
+        <Bold>false</Bold>
+        <Italic>false</Italic>
+        <Foreground>
+          <A>255</A>
+          <R>0</R>
+          <G>144</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>0</ScR>
+          <ScG>0.278894275</ScG>
+          <ScB>1</ScB>
+        </Foreground>
+        <Background xsi:nil="true" />
+      </CustomizedHighlightingColor>
+      <CustomizedHighlightingColor>
+        <Language>XML</Language>
+        <Name>DocType</Name>
+        <Bold>false</Bold>
+        <Italic>false</Italic>
+        <Foreground>
+          <A>255</A>
+          <R>0</R>
+          <G>144</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>0</ScR>
+          <ScG>0.278894275</ScG>
+          <ScB>1</ScB>
+        </Foreground>
+        <Background xsi:nil="true" />
+      </CustomizedHighlightingColor>
+      <CustomizedHighlightingColor>
+        <Language>XML</Language>
+        <Name>CData</Name>
+        <Bold>false</Bold>
+        <Italic>false</Italic>
+        <Foreground>
+          <A>255</A>
+          <R>0</R>
+          <G>144</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>0</ScR>
+          <ScG>0.278894275</ScG>
+          <ScB>1</ScB>
+        </Foreground>
+        <Background xsi:nil="true" />
+      </CustomizedHighlightingColor>
+      <CustomizedHighlightingColor>
+        <Name>Folding markers</Name>
+        <Bold>false</Bold>
+        <Italic>false</Italic>
+        <Foreground>
+          <A>255</A>
+          <R>193</R>
+          <G>193</G>
+          <B>193</B>
+          <ScA>1</ScA>
+          <ScR>0.5332764</ScR>
+          <ScG>0.5332764</ScG>
+          <ScB>0.5332764</ScB>
+        </Foreground>
+        <Background>
+          <A>0</A>
+          <R>0</R>
+          <G>0</G>
+          <B>0</B>
+          <ScA>0</ScA>
+          <ScR>0</ScR>
+          <ScG>0</ScG>
+          <ScB>0</ScB>
+        </Background>
+      </CustomizedHighlightingColor>
+      <CustomizedHighlightingColor>
+        <Name>Folding controls</Name>
+        <Bold>false</Bold>
+        <Italic>false</Italic>
+        <Foreground>
+          <A>255</A>
+          <R>206</R>
+          <G>206</G>
+          <B>206</B>
+          <ScA>1</ScA>
+          <ScR>0.6172066</ScR>
+          <ScG>0.6172066</ScG>
+          <ScB>0.6172066</ScB>
+        </Foreground>
+        <Background>
+          <A>255</A>
+          <R>0</R>
+          <G>0</G>
+          <B>0</B>
+          <ScA>1</ScA>
+          <ScR>0</ScR>
+          <ScG>0</ScG>
+          <ScB>0</ScB>
+        </Background>
+      </CustomizedHighlightingColor>
+      <CustomizedHighlightingColor>
+        <Name>Selected folding controls</Name>
+        <Bold>false</Bold>
+        <Italic>false</Italic>
+        <Foreground>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
+        </Foreground>
+        <Background>
+          <A>255</A>
+          <R>0</R>
+          <G>0</G>
+          <B>0</B>
+          <ScA>1</ScA>
+          <ScR>0</ScR>
+          <ScG>0</ScG>
+          <ScB>0</ScB>
+        </Background>
+      </CustomizedHighlightingColor>
+    </ArrayOfCustomizedHighlightingColor>
+  </SerializedValue>
+  <SerializedValue name="DebuggingOptions">
+    <DebuggingOptions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <EnableJustMyCode>true</EnableJustMyCode>
+      <StepOverNoSymbols>true</StepOverNoSymbols>
+      <StepOverDebuggerAttributes>true</StepOverDebuggerAttributes>
+      <StepOverAllProperties>false</StepOverAllProperties>
+      <StepOverSingleLineProperties>false</StepOverSingleLineProperties>
+      <StepOverFieldAccessProperties>true</StepOverFieldAccessProperties>
+      <Verbose>false</Verbose>
+      <SymbolsSearchPaths />
+      <SuspendOtherThreads>true</SuspendOtherThreads>
+      <PauseOnHandledExceptions>false</PauseOnHandledExceptions>
+      <DecompileCodeWithoutSymbols>false</DecompileCodeWithoutSymbols>
+      <ICorDebugVisualizerEnabled>false</ICorDebugVisualizerEnabled>
+      <ShowIntegersAs>Auto</ShowIntegersAs>
+      <ShowArgumentNames>false</ShowArgumentNames>
+      <ShowArgumentValues>false</ShowArgumentValues>
+      <ShowExternalMethods>false</ShowExternalMethods>
+      <ShowLineNumbers>false</ShowLineNumbers>
+      <ShowModuleNames>false</ShowModuleNames>
+      <DebuggerEventWindowState>Normal</DebuggerEventWindowState>
+      <DebuggeeExceptionWindowState>Normal</DebuggeeExceptionWindowState>
+    </DebuggingOptions>
+  </SerializedValue>
+  <Dialogs.NewFileDialog.CategoryViewState value="[]" />
+  <Dialogs.NewFileDialog.LastSelectedCategory value="Web" />
+  <Dialogs.NewFileDialog.LastSelectedTemplate value="${res:Templates.File.Html.EmptyHtml.Name}" />
+  <Dialogs.NewProjectDialog.CategoryTreeState value="[C#[]VB[]]" />
+  <Dialogs.NewProjectDialog.CreateDirectoryForSolution value="False" />
+  <Dialogs.NewProjectDialog.LargeImages value="True" />
+  <Dialogs.NewProjectDialog.LastSelectedCategory value="C#\Windows Applications" />
+  <Dialogs.NewProjectDialog.TargetFramework value="v4.0" />
+  <SerializedValue name="DisabledContextActionProviders">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+  </SerializedValue>
+  <Properties name="DisplayBindingService">
+    <Array name="ExternalProcesses" />
+  </Properties>
+  <Properties name="ErrorListPad">
+    <ShowErrors value="True" />
+    <ShowMessages value="True" />
+    <ShowWarnings value="True" />
+  </Properties>
+  <FormsDesigner.DesignerOptions.DefaultLocalizationModel value="PropertyReflection" />
+  <FormsDesigner.DesignerOptions.EnableInSituEditing value="True" />
+  <FormsDesigner.DesignerOptions.GenerateVisualStudioStyleEventHandlers value="False" />
+  <FormsDesigner.DesignerOptions.GridSizeHeight value="8" />
+  <FormsDesigner.DesignerOptions.GridSizeWidth value="8" />
+  <FormsDesigner.DesignerOptions.InsertTodoComment value="False" />
+  <FormsDesigner.DesignerOptions.KeepLocalizationModel value="False" />
+  <FormsDesigner.DesignerOptions.ObjectBoundSmartTagAutoShow value="True" />
+  <FormsDesigner.DesignerOptions.PropertyGridSortAlphabetical value="False" />
+  <FormsDesigner.DesignerOptions.ShowGrid value="True" />
+  <FormsDesigner.DesignerOptions.SnapToGrid value="False" />
+  <FormsDesigner.DesignerOptions.SnapToGridMode value="True" />
+  <FormsDesigner.DesignerOptions.UseOptimizedCodeGeneration value="True" />
+  <FormsDesigner.DesignerOptions.UseSmartTags value="True" />
+  <FormsDesigner.DesignerOptions.UseSnapLines value="True" />
+  <Properties name="HexEditorOptions">
+    <BytesPerLine value="16" />
+    <DataFont value="Courier New, 9.5pt" />
+    <DataForeColor value="#FF000000" />
+    <FitToWidth value="False" />
+    <OffsetFont value="Courier New, 9.5pt" />
+    <OffsetForeColor value="#FF0000FF" />
+    <ViewMode value="Hexadecimal" />
+  </Properties>
+  <ICSharpCode.SharpDevelop.Gui.Dialogs.NewProjectDialog.DefaultPath value="D:\MyDocs\SharpDevelop Projects" />
+  <ICSharpCode.SharpDevelop.Gui.ProjectBrowser.ShowExtensions value="True" />
+  <ICSharpCode.SharpDevelop.Gui.StatusBarVisible value="True" />
+  <ICSharpCode.SharpDevelop.Gui.ToolBarVisible value="True" />
+  <ICSharpCode.SharpDevelop.Gui.UseProfessionalRenderer value="True" />
+  <Properties name="ICSharpCode.Svn.Options">
+    <AutomaticallyAddFiles value="True" />
+    <AutomaticallyDeleteFiles value="True" />
+    <AutomaticallyReloadProject value="True" />
+    <AutomaticallyRenameFiles value="True" />
+    <UseHistoryDisplayBinding value="True" />
+  </Properties>
+  <ICSharpCode.UsageDataCollector.Enabled value="True" />
+  <Properties name="PackageManagementSettings">
+    <PackagesDirectory value="packages" />
+    <SerializedValue name="RecentPackages">
+      <ArrayOfRecentPackageInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+    </SerializedValue>
+  </Properties>
+  <Properties name="ProfilerOptions">
+    <CombineRecursiveFunction value="False" />
+    <DoNotProfileNetInternals value="False" />
+    <EnableDC value="True" />
+    <EnableDCAtStart value="True" />
+    <SharedMemorySize value="67108864" />
+    <TrackEvents value="False" />
+  </Properties>
+  <ProjectBrowser.ShowAll value="False" />
+  <Properties name="PythonBinding.Options">
+    <PythonFileName value="C:\Program Files (x86)\SharpDevelop\4.2\bin\..\AddIns\BackendBindings\PythonBinding\ipy.exe" />
+    <PythonLibraryPath value="" />
+  </Properties>
+  <Properties name="RecentOpen">
+    <Array name="Files">
+      <Element value="D:\Foyatech\NWIS_Ver2\trunk\Code\Nwis2pj_OngoingCode\ET_Common\Nwis\ET_Common\TBC_SITE_RES_SWAP.vb" />
+      <Element value="D:\Foyatech\nwis2pj-rcode\130107_[TBC]Phase4-WiFi租約報告表相關調整\ET_Common重構版本\Nwis\ET_Common\NWIS_PA_APP_BATCH.vb" />
+      <Element value="D:\Foyatech\NWIS_Ver2\trunk\Code\Nwis2pj_OngoingCode\ET_Common\Nwis\ET_Common\BaseEntityClass.vb" />
+      <Element value="D:\Foyatech\nwis2pj-rcode\130107_[TBC]Phase4-WiFi租約報告表相關調整\NWIS-1444\站台名稱顯示數量參數化_選擇合約\ET_Common\Nwis\ET_Common\TBC_WIFI_LEASE_APPLY_SITES.vb" />
+      <Element value="D:\Foyatech\nwis2pj-rcode\130107_[TBC]Phase4-WiFi租約報告表相關調整\NWIS-1444\站台名稱顯示數量參數化_選擇合約\ET_Common\Nwis\ET_Common\V_TBC_LEASE_SITES.vb" />
+      <Element value="D:\MyDocs\SharpDevelop Projects\LINQtoSQL\Program.cs" />
+      <Element value="D:\MyDocs\SharpDevelop Projects\testvbweb\Default.aspx" />
+      <Element value="D:\MyDocs\SharpDevelop Projects\testvbweb\Default.aspx.vb" />
+      <Element value="C:\inetpub\wwwroot\TestDivShowHide.htm" />
+      <Element value="C:\inetpub\wwwroot\TestDivShowHide" />
+    </Array>
+    <Array name="Projects">
+      <Element value="D:\MyDocs\SharpDevelop Projects\testvbweb\testvbweb.sln" />
+      <Element value="D:\MyDocs\SharpDevelop Projects\TestAsmxOutputFormat\TestAsmxOutputFormat.sln" />
+    </Array>
+  </Properties>
+  <Properties name="RubyBinding.Options">
+    <RubyFileName value="C:\Program Files (x86)\SharpDevelop\4.2\bin\..\AddIns\BackendBindings\RubyBinding\ir.exe" />
+    <RubyLibraryPath value="" />
+  </Properties>
+  <Properties name="ServiceReferenceOptions">
+    <SvcUtilPath value="" />
+  </Properties>
+  <SharpDevelop.BuildParallelProjectCount value="4" />
+  <SharpDevelop.DefaultBuildOutputVerbosity value="Normal" />
+  <SharpDevelop.DefaultFileEncoding value="65001" />
+  <SharpDevelop.DeleteToRecycleBin value="True" />
+  <SharpDevelop.FileChangeWatcher.AutoLoadExternalChanges value="True" />
+  <SharpDevelop.FileChangeWatcher.DetectExternalChanges value="True" />
+  <SharpDevelop.LoadDocumentProperties value="True" />
+  <SharpDevelop.LoadPrevProjectOnStartup value="False" />
+  <SharpDevelop.SaveUsingTemporaryFile value="True" />
+  <SharpDevelop.ShowErrorListAfterBuild value="True" />
+  <Array name="SharpDevelop.TaskListTokens">
+    <Element value="HACK" />
+    <Element value="TODO" />
+    <Element value="UNDONE" />
+    <Element value="FIXME" />
+    <Element value="Leo" />
+  </Array>
+  <Properties name="SharpDevelop.UI.CodeGenerationOptions">
+    <BlankLinesBetweenMembers value="True" />
+    <ElseOnClosing value="True" />
+    <GenerateAdditionalComments value="True" />
+    <GenerateDocumentComments value="True" />
+    <StartBlockOnSameLine value="True" />
+    <UseFullyQualifiedNames value="True" />
+  </Properties>
+  <SharpDevelop.UI.CurrentAmbience value=".NET" />
+  <Properties name="SharpDevelop.UI.OutputWindowOptions">
+    <DefaultFont value="[Font: Name=Consolas, Size=10, Units=3, GdiCharSet=1, GdiVerticalFont=False]" />
+    <WordWrap value="True" />
+  </Properties>
+  <SharpDevelop.UI.UseProjectAmbience value="True" />
+  <ShowTipsAtStartup value="True" />
+  <SourceAnalysis.StyleCopPath value="C:\Program Files (x86)\StyleCop 4.7\StyleCop.dll" />
+  <Properties name="UnitTesting.Options">
+    <CreateXmlOutputFile value="False" />
+    <Labels value="False" />
+    <NoDots value="False" />
+    <NoLogo value="False" />
+    <NoShadow value="False" />
+    <NoThread value="False" />
+  </Properties>
+  <VBBinding.TextEditor.EnableCasing value="True" />
+  <VBBinding.TextEditor.EnableEndConstructs value="True" />
+  <Properties name="WorkbenchMemento">
+    <Bounds value="10.4,10.4,750.4,550.4" />
+    <WindowState value="Maximized" />
+  </Properties>
+  <Properties name="XamlBinding.Options">
+    <EventForeground value="#FF008000" />
+    <EventHandlerNamePattern value="%Object%_%Event%" />
+    <IgnoredForeground value="#FFD3D3D3" />
+    <NamespaceDeclarationForeground value="#FFFFA500" />
+    <PropertyForeground value="#FF5F9EA0" />
+    <SwitchToCodeViewAfterInsertion value="True" />
+    <UseAdvancedHighlighting value="True" />
+    <UseExtensionCompletion value="True" />
+  </Properties>
+  <Properties name="XmlEditor.AddIn.Options">
+    <ext.addin value="" />
+    <ext.booproj value="" />
+    <ext.build value="" />
+    <ext.config value="" />
+    <ext.csproj value="" />
+    <ext.disco value="" />
+    <ext.fsproj value="" />
+    <ext.ilproj value="" />
+    <ext.manifest value="" />
+    <ext.map value="" />
+    <ext.nuspec value="" />
+    <ext.proj value="" />
+    <ext.pyproj value="" />
+    <ext.rbproj value="" />
+    <ext.targets value="" />
+    <ext.vbproj value="" />
+    <ext.vcxproj value="" />
+    <ext.wixproj value="" />
+    <ext.wsdl value="" />
+    <ext.wxi value="" />
+    <ext.wxl value="" />
+    <ext.wxs value="" />
+    <ext.xfrm value="" />
+    <ext.xft value="" />
+    <ext.xml value="" />
+    <ext.xpt value="" />
+    <ext.xsd value="" />
+    <ext.xshd value="" />
+    <ext.xsl value="" />
+    <ext.xslt value="" />
+    <ShowAttributesWhenFolded value="False" />
+    <ShowSchemaAnnotation value="True" />
+  </Properties>
+</SharpDevelopProperties>
