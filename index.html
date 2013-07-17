@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Darkstyle : Dark theme of SharpDevelop 4.x and Visual Studio 2008/2010" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Darkstyle</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/smartleos/DarkStyle">View on GitHub</a>
+
+          <h1 id="project_title">Darkstyle</h1>
+          <h2 id="project_tagline">Dark theme of SharpDevelop 4.x and Visual Studio 2008/2010</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/smartleos/DarkStyle/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/smartleos/DarkStyle/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="darkstyle---ide%E7%B7%A8%E8%BC%AF%E5%99%A8%E7%9A%84%E9%BB%91%E8%89%B2%E9%A2%A8%E6%A0%BC" class="anchor" href="#darkstyle---ide%E7%B7%A8%E8%BC%AF%E5%99%A8%E7%9A%84%E9%BB%91%E8%89%B2%E9%A2%A8%E6%A0%BC"><span class="octicon octicon-link"></span></a>DarkStyle - IDE編輯器的黑色風格</h1>
+
+<h2>
+<a name="dark-theme-of-sharpdevelop-4x-and-visual-studio-20082010" class="anchor" href="#dark-theme-of-sharpdevelop-4x-and-visual-studio-20082010"><span class="octicon octicon-link"></span></a>Dark theme of SharpDevelop 4.x and Visual Studio 2008/2010</h2>
+
+<p>SharpDevelop 4.2.x 沒有提供匯出功能，XML設定檔裡面會包含很多其他的資料，所以放上來的只保留自訂色彩的區段（CustomizedHighlightingRules），下載後請依下述步驟更新顏色：</p>
+
+<ol>
+<li>
+<p>開啟下載的SharpDevelopProperties.xml，選取以下區塊（第二行到倒數第二行），並複製到剪貼薄： </p>
+
+<pre><code>&lt;SerializedValue name="CustomizedHighlightingRules"&gt;
+    ...........
+&lt;/SerializedValue&gt;
+</code></pre>
+</li>
+<li><p>開啟SharpDevelop執行目錄下的SharpDevelopProperties.xml，找到上述XML的區塊，置換為步驟1所複製起來的內容。</p></li>
+</ol><p>強烈建議升級 SharpDevelop 4.3.x，因為有提供編輯器色彩設定檔的匯入、匯出功能。下面 4.3 的設定檔後，到「Tools/Options/Text Editor/Hightlighting」下，按【Import hightlighting colors】即可匯入。</p>
+
+<p>Visual Studio 2008/2010的設定檔，只有匯出「環境/字型及色彩」設定項目，所以可以直接在「檔案/工具/匯入匯出設定」中，匯入設定檔。</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Darkstyle maintained by <a href="https://github.com/smartleos">smartleos</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
